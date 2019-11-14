@@ -5,15 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/main.css">
-    <script src="/script.js" defer></script>   
+     
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Pacifico|Roboto:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/brands.css" integrity="sha384-QT2Z8ljl3UupqMtQNmPyhSPO/d5qbrzWmFxJqmY7tqoTuT2YrQLEqzvVOP2cT5XW" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
-
-  </head> 
-  
+      
+  </head>
   <body>  
      <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,10 +20,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-    <li class="nav-item active">
+      <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
         </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
       <li class="nav-item">
@@ -36,35 +35,53 @@
     </ul>
   </div>
 </nav>
-    
-<div class="mains about">    
-   <div class="container"> 
-     <div class="row"> 
-       <div class="col-md-6 thumbnail"> 
-         <img alt="Me" width="400px" src="../pictures/MWillardProfile.jpg" /> 
-       </div> 
-       <div class="col-md-6"> 
-         <h2>My name is Matthew.</h2> 
-         <p>I’m a web developer based in the Salt Lake City, Utah area. I love sports, movies, music, and all things tech.  </p> 
-         <p>I’m currently trying to expand my knowledge of HTML, CSS, Javascript, Jquery, React, Express, Node.js, and PostgreSQL. I love coding because it allows me to
-            express my creativity and it appeals to my desire to solve problems. I spent over five years of my life managing the cleanliness of a recreation center so I’m
-            sort of a neat freak. I also love woodworking with dreams of making a rocking chair and canoe one day.</p>
-       </div> 
-     </div> 
-   </div> 
-  </div> 
-  
-      <div class="footer bg-white"> 
-        <div class="container">         
-          <a class="new-link" href="https://github.com/MatthewWillard" target="_blank"><i class="fab fa-2x fa-github"></i></a>
-          <a class="new-link" href="https://www.linkedin.com/in/matthew-willard/" target="_blank"><i class="fab fa-2x fa-linkedin"></i></a>
-          <p>Contact me at mwillard85@gmail.com</p>
-        </div> 
-      </div>
+        
+    <div class="container port">
+       <div class="row"> 
+         <div class="col-md-6 project">
+         <div class="thumbnail"> 
+           <img alt="Project01" width="100%" src="../pictures/trainingtracker.png"> 
+         </div>
+        <h3>
+          <a href="https://trainingtracker.mwillard.now.sh/" target="_blank">Training Tracker App</a> 
+         </h3>
+           <p>
+                An app for managers to track the trainings of their employees. Login required, create account or use Username: Demo - Password: Password0! Built with HTML, CSS, React, Node.js, PostgreSQL, and Express.js.
+           </p>
+        </div>       
+         
+         <div class="col-md-6 project">
+         <div class="thumbnail"> 
+           <img alt="Project01" width="100%" src="../pictures/nflNews.png"> 
+         </div>
+        <h3>
+          <a href="https://all-for-one-sports.mwillard.now.sh/" target="_blank">Sports News App</a> 
+         </h3>
+           <p>
+                A sports news app that gives you all the latest NFL, NHL, and news from ESPN. Login required, create account or use Username: TestName - Password: Password0! Built with HTML, CSS, React, Node.js, PostgreSQL, and Express.js.
+           </p>
+        </div>                  
+      </div> 
+      
+      <div class="row"> 
+         <div class="col-md-6 project">
+         <div class="thumbnail"> 
+           <img alt="Project01" width="100%" src="../pictures/apiapp.png"> 
+         </div>
+        <h3>
+          <a href="https://matthewwillard.github.io/eventSearch/index.html" target="_blank">Events App</a> 
+         </h3>
+           <p>
+                My Event Search app is a basic API app that shows you local sporting and musical events in a searched location. The user inputs their location and the most popular events are returned.  Built with HTML, CSS, Javascript, and jQuery.
+           </p>
+           </div>     
+      </div>        
+    </div>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-  </body>
+    
+     </body>
+   
 </html>
